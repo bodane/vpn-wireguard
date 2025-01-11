@@ -77,9 +77,6 @@ The basic script and Corefile included will assist with this configuration. We'l
 
     ```
     ./optional-config/blacklist.sh
-    cp optional-config/Corefile config/coredns/Corefile
-    cp blacklist.txt config/coredns/blacklist.txt
-
     ```
 
 1. Backup your current Corefile, place it in a easy to find path related to CoreDNS, and update the CoreDNS file to reference the newly created `blacklist.txt` file.
