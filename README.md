@@ -102,6 +102,8 @@ The basic script and Corefile included will assist with this configuration. We'l
 
 1. Restart your Wireguard VPN server to have the changes all take effect.
 
+   **NOTE:** The below assumes your container name is `lthn-vpn-wireguard-1`. Validate what your container name is by using the `docker ps` command.
+
    ```
    docker restart lthn-vpn-wireguard-1
    ```
