@@ -1,0 +1,14 @@
+. {
+    # CoreDNS standard plugins
+    loop
+    errors
+    health
+
+    # Blocking unsafe domains
+    hosts /config/coredns/blacklist.txt {
+        fallthrough
+    }
+
+    # Forwarding for domains not in blocklists
+    forward . /etc/resolv.conf
+}
