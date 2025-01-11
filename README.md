@@ -65,7 +65,8 @@ Have the following known before proceeding.
 
 ## Basic Firewalling
 
-Configure some basic 
+Configure some basic firewall policy.
+
 |     Port     |  Server-Side or Cloud Service Inbound Policy    |
 |--------------|-------------------------------------------------|
 | TCP 22       | Server admin. Whitelist admin source IP's only  |
